@@ -1,0 +1,21 @@
+
+:root{
+    --background-color: #ffffff;
+    --text-color:#000000;
+    --accent-color:#A5B4FC;
+    --buttom-color:#A5B4FC;
+
+}
+
+@media(min-width :600px)
+{
+    .container{
+        width: 600px;
+        
+    }
+
+}
+
+@media(prefers-color-scheme  :dark){
+
+}

@@ -1,0 +1,8 @@
+http://localhost:8080/college%20php/
+
+
+
+
+<?php error_reporting (E_ALL ^ E_NOTICE); ?>
+<?php error_reporting(0); ?> 
+ to remove error display message

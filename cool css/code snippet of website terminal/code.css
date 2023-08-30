@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* box sizing se margin pading border sb kuch width mae he include hojata ha  */
+
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.container {
+    width: 500px;
+    overflow-x: auto;
+    height: 400px;
+    scrollbar-gutter: stable;
+
+    /* scrollbar-stable for adling scrollbar insdide cotainer */
+    
+    
+    
+    
+    /* if we have large line of code then we then we can scroll to it  */
+}
+
+.langauge {
+    color: white;
+    background-color: #1f4287;
+    padding: 12px 16px;
+    border-radius: 5px 5px 0 0;
+    text-align: right;
+    
+
+}
+
+.code-wrappen{
+    position: relative;
+}
+.code-wrappen pre{
+    background-color: #071e3d;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 0 0 5px 5px;
+    overflow-y: auto;
+    scrollbar-gutter : stable;
+
+    /* TO ADD SCROLLBAR IN X AXIS AND DONT LET CODE GET AWAY  overflow-y*/
+     
+    /* scrollbar-gutter: everthing inside div box ; */
+    
+
+}
+#copy-button {
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 7px;
+    background-color: #1f4287;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer ;
+    transition: all  0.3s ease-in;
+    opacity: 0;
+}
+#copy-button:hover {
+    background-color: #1f428790;
+}
+
+.code-wrappen:hover #copy-button {
+    opacity: 1;
+}
+
+/* the reason for opaCTITY ONE And opacty 0
+ is that when we take a cursor in code wrapper
+  or pre tag than only copy button will appaer */
+
+  #copy-succes{
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+    font-size: 24px;
+    border-radius: 5px;
+    display: none;    
+
+  }
+
+  #copy-succes.show-message {
+    display: inline-block;
+  }
+
+
+
+  /* .hljs {
+    background-color: yellow;
+  } */
+
+  /* we can change the properties with hljs */

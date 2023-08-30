@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+   button{
+    border: none;
+    padding: 12px;
+    margin: 10px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    /* transition-property: background-color color width; */
+    /* or use */
+    transition-property: all;
+    transition-duration: 1s;
+   }
+
+   button:hover{
+    background-color: beige;
+    color: black;
+    width: 600px;
+   }
+
+   #one{
+
+    border: none;
+    padding: 12px;
+    margin: 10px;
+    width: 200px;
+    background-color:green;
+    color:yellow; 
+    transition: background-color 2s ease-in-out 1s,color 2s ease-out 3s,border-radius 2s ease-in 8s;
+    
+   }
+
+#one:hover{
+    color: green;
+    background-color: yellow;
+    border-radius: 50%;
+
+}
+
+    
+    
+    </style>
+</head>
+<body>
+    
+    <p>we can give more than one css property to an element
+
+        shorthand transation property transation: transition-property transition-duration transition-timing-function transition-delay</p>
+     
+    transation: transition-property transition-duration transition-timing-function transition-delay
+<p>
+    add commoa for additing css property for another property
+</p>   
+
+
+</p>
+
+
+   <p></p>
+
+
+   <button >hover </button> 
+   <br>
+   <button  id="one">hover </button> 
+</body>
+</html>

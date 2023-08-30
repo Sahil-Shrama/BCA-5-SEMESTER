@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.btn{
+    border: none;
+    height: 65px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 58px;
+    font-weight: 700;
+    margin: 30px;
+    transition-property:translate() ;
+    transition-duration: 3s;
+    
+}
+.btn:hover{
+    transform: translate(900px,0);
+    /* 900 px horizontally 0px vertically */
+}
+
+#btn1{
+  transition-timing-function: ease;
+  }
+#btn2{
+  transition-timing-function: ease-in;
+  }
+#btn1{
+  transition-timing-function: ease-out;
+  }
+#btn1{
+  transition-timing-function: linear;
+  }
+#btn1{
+  transition-timing-function: ease-in-out;
+  }
+
+
+</style>
+
+
+
+</head>
+<body>
+    <p> transition timing funcition how tthe change in proprty will occur
+        five property 
+<ol>
+<li>ease the chnge will go slow in middle faster and in end fast</li>
+<li>linear: the change will occcur at same rate</li>
+<li>ease in : change will start slow and speed up in end</li>
+<li> ease out : change start fast and slow down in end</li>
+<li>ease in out : same as ease</li>
+</ol>
+
+    </p>
+
+    <p>transition delay: time before transition start
+        accept value in second or milli second
+        ex transition delay 2s;
+        etc wait for 2 second before transition start
+    </p>
+<button class="btn" id="btn1">hover me </button><br>
+<button class="btn" id="btn2">hover me </button><br>
+<button class="btn" id="btn3">hover me </button><br>
+<button class="btn" id="btn4">hover me </button><br>
+<button class="btn" id="btn5">hover me </button><br>
+
+</body>
+</html>

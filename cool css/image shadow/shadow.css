@@ -1,0 +1,9 @@
+img{
+    box-shadow: 10px 10px 20px black;
+
+    /* box-shadow: xasis yaxis blur colour; */
+}
+
+#yoyo img{
+    filter: drop-shadow(10px 10px 20px rgb(171, 82, 82));
+}

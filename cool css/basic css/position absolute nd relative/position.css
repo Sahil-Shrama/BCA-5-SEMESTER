@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.relative{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    top: 50px;
+    left:150px;
+}
+
+/* jb postion use nhi karoga tb tk top left bottom use nhi kr skta */
+
+#tv{
+    position: absolute;
+ height: 100px;
+ width: 100px;
+ left: 200px;
+ background-color: yellow;
+}
+
+#sofa{
+    position: absolute;
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    left: 200px; 
+    top: 159px;
+}
+
+#fridge{
+    height: 100px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}

@@ -1,0 +1,24 @@
+///
+To hide an element or use x button 
+
+js 
+onclick="this.parentelement.style.display='none'";
+
+
+
+////
+javascript fuction to show and hide
+ function myfunction(){
+    var x=document.getElementById("id_name")
+    if(x.className.indexOf("w3-show")== -1){
+        x.className += "w3-show";
+    }
+    else{
+        x.className = x.className.replace("w3-show","");
+    }
+ }
+
+
+
+ for accesing use onclick=functionname
+ and give classname to other

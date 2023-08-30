@@ -1,0 +1,16 @@
+#outer{
+    height: 500px;
+    width: 400px;
+    border: 8px solid black;
+}
+
+#head{
+    border: 8px solid red;
+}
+
+
+pre{
+    height:400px ;
+    background-color: yellowgreen;
+    color: white;
+}

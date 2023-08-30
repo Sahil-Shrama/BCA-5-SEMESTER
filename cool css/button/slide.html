@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            width: 250px;
+        background-color: rgb(234, 240, 238);
+        color: black;
+        display: inline;
+        
+        border: 1px solid red;
+        width: 10%;
+        border-radius: 35%;
+    
+        transition-property: background-color;
+        transition-duration:4s ;
+        border-radius: 50%;
+        
+        
+    }
+    .div2{
+        display: inline-block;
+        transition: all ease-in-out 3s;
+        
+    }
+    .div3{
+       display: none; 
+       
+        
+    }
+    .div1:hover{
+        background-color:rgb(143, 86, 197);
+       color: aliceblue;
+    }
+    
+        
+    
+    .div1:hover .div3{
+        /* background-color: blueviolet; */
+        display: inline-block;
+        
+        /* background-color: chartreuse; */
+    }
+    #big{
+        display: grid;
+       gap: 40px;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div id="big">
+    <div class="div1">
+        <div class="div2">
+       yoyo
+        </div>
+
+        <div class="div3">
+            yoyo
+        </div>
+    </div>
+    <div class="div1">
+        <div class="div2">
+       yoyo
+        </div>
+
+        <div class="div3">
+            yoyo
+        </div>
+    </div>
+    <div class="div1">
+        <div class="div2">
+       yoyo
+        </div>
+
+        <div class="div3">
+            yoyo
+        </div>
+    </div>
+    <div class="div1">
+        <div class="div2">
+       yoyo
+        </div>
+
+        <div class="div3">
+            yoyo
+        </div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.navbar .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+.download{
+  background: url(../images/download-background.jpg) center center no-repeat;
+ background-size: cover;
+
+}
+
+
+@media (max-width: 100px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-center {
+    text-align: center;
+  }
+}

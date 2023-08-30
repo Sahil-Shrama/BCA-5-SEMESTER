@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a52f9;
+    background-image: linear-gradient(19deg, #1a52f9 0% , #B721FF 84%);
+    position: relative;
+    /* for findind linear gradient colour go to the online website */
+
+}
+
+
+header::before{
+    content: "";
+    width: 520px;
+    height: 550px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-image: url("logo.jpg");
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+
+
+
+nav{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+
+}
+
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.menu ul li{
+    display: inline-block;
+    /* inline block sa seedha hogya list */
+    list-style: none;
+    padding: 0px 15px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.active,ul li:hover{
+    border-top: 2px solid #5dade2;
+    border-bottom: 2px solid #5dade2;
+}
+
+.contact-btn a{
+    text-decoration: none;
+    color: white;
+    background-color: ;
+    text-transform: capitalize;
+    background-color: #d465ef;
+    padding: 12px 26px;
+    font-style: 14px;
+    font-weight: 500;
+    border: 1px solid transparent;
+
+}
+
+.contact-btn a:hover{
+    background: linear-gradient(to bottom,#615cfd 0%, #d465ef 100%);
+}
+
+
+.center-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* we use transform property to center a div inside a div */
+text-align: center;
+}
+
+.center-content h1{
+    color: #fff;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 10px;
+    z-index: ;
+
+    /* agr jo hello likha ha voh voh image ki picha chala gya text tb apko z index ki  */
+    /* jarurat padegi */
+}
+
+.center-content h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    z-index: ;
+    text-transform: capitalize;
+}
+
+.center-content h2::before{
+    content: "";
+    width: 80px;
+    height: auto;
+    border: 2px solid white;
+    position: absolute;
+    left: 40px;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+
+/* fa fonst awsome style */
+
+.social-network{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.fa-icons{
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom,#615cfd 0%, #d465ef 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.fa-icons:nth-child(even){
+    margin: 20px 0;
+}
+.fa-icons i{
+    color: white;
+    
+
+}
+
+.fa-icons:hover {
+    background: linear-gradient(to bottom,#d465ef 0%, #615cfd 100%);
+}
+
+
+.grid-sec{
+    width: 700px;
+    height: 100vh;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    overflow:hidden;
+}
+
+.grid-sec img{
+    width: 100%;
+    height: 100vh;
+
+    
+}

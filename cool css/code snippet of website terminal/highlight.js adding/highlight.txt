@@ -1,0 +1,23 @@
+to add a highlighted text theme 
+
+first chech the theme on highlight , js 
+
+second change the css property hljs hljs is basically a class
+we will find custom hljs on github
+
+https://github.com/highlightjs/highlight.js/tree/main/src/styles
+
+or simply by searching themes css for hljs
+
+we will add css in our javascript with
+
+hljs.initHighlightingOnLoad();
+
+this will enable a default theme 
+this property will add class hljs and javascript in <code>
+
+automatically
+
+and also add cdn for css and javascript of hljs in index file
+css in head and javascript just before cloasing the body tag
+
