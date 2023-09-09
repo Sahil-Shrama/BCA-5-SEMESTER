@@ -1,0 +1,28 @@
+npm(node package manager) it is a tool to install packages along command line
+install node js to install packakage
+packages/dependensices are listed in your pacakage json file
+install packages via---------
+npm install package name
+pacakage = framework libaray or anything
+
+
+commands
+npm init // for npm pacakages
+after this we got pacakage.json file 
+
+
+npm install scss 
+node module file///
+
+compile our scss file
+///sass:build //torun sass  it take two things first our
+// input folder and then output folder where our css gonna be
+
+
+to run npm script of scss
+npm run sass:build
+
+
+npm run sass:watch
+if we update anything in our sass file it directly change it withiout 
+everytime running saas:build

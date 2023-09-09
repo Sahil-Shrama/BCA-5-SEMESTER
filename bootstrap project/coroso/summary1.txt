@@ -1,0 +1,8 @@
+first in package .json file for dependensices run [npm i]
+it will install node module in it  
+then run 
+[npm run sass:watch] 
+ctrl+c to exit from it 
+this will change terminal according to the node module
+
+

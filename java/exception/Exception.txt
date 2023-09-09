@@ -1,0 +1,7 @@
+two types of exception 
+checked and uncheked
+checked exceptions are check by compiler 
+while unchecked exception are not checked by the compiler they work at run tine 
+
+
+uncheced of inbuilt exceptions

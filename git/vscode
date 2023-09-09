@@ -1,0 +1,25 @@
+vcs
+allow you to manage changes file over time 
+allow mulitple people work on a project with ease 
+keep track of all changes 
+one version of project will always be ready to use 
+
+
+benefit 
+history of your work 
+it allow yu to collaboration while handling conflicts 
+it allows for branching 
+
+
+vsc 
+git 
+svn 
+helixcore 
+clearcase
+tfs
+
+
+central and distributes vcs 
+central everything stored on one system 
+distributed mens everyone have its own repository local repository 
+ 

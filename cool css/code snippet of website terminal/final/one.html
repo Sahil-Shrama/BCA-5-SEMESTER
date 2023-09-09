@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"
-    href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
-    <link rel="stylesheet" href="code.css">
-    <link rel="stylesheet" href="highlight.js adding/highligh.css">
-    <script src="code.js"></script>
+    <link rel="stylesheet" href="highlight code/styles/base16/black-metal-bathory.min.css">
+    <!-- <link rel="stylesheet" href="highlight code/styles/a11y-dark.min.css"> -->
+    <link rel="stylesheet" href="highlight code/languages/a11y-dark">
+
 </head>
 <body>
-    <div class="container">
-        <p class="langauge">langauge name</p>
-        <div class="code-wrappen ">
-        <pre class="text-wrap" > 
-            <code id="code" class="text-wrap" >
-public class empty_rect {
+<div  >
+    <pre>
+    <code class="">
+        public class empty_rect {
  int m=4,n=5;
                 
  void emptyrect(){
@@ -51,11 +48,13 @@ public class empty_rect {
                 
             </code>
         </pre>
-<button id="copy-button">copy</button>
-
-        </div>
-        <span id="copy-succes">code copies:)</span>
-    </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+</div> 
+<script src="highlight code/highlight.min.js"></script>
+<script src="highlight code/highlight.js"></script>
+<script>hljs.highlightAll();</script>
+<script>// load the library and ALL languages
+    hljs = require('highlight.js');
+    html = hljs.highlightAuto('<h1>Hello World!</h1>').value
+    </script>
 </body>
 </html>

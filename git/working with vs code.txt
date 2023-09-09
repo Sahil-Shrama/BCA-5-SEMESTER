@@ -1,0 +1,4 @@
+git init 
+cd to change 
+in terminal of vscode 
+git add .

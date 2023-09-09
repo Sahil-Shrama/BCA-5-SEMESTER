@@ -1,0 +1,14 @@
+$spaces for spacing like padding margi etc
+
+navbar
+for navbar if you waant that navbar take the body or header image always use 
+fixed top
+rgba(0,0,0,opacity)
+navitem nav link for navbar 
+in the responsive website when we open navbar
+ by default the dta is only seen not the backrogrd color
+ for this we have to use 
+ @media query max width 
+  .navbar{
+        background: var(--bs-dark);
+    }
